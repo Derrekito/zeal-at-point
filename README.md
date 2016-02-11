@@ -6,11 +6,11 @@ Search the word at point with Zeal
 
 ## Installation
 
-The recommended way to install is via [MELPA](http://melpa.milkbox.net/) or Marmalade
+The recommended way to install is via [MELPA](http://melpa.milkbox.net/) or [Marmalade](https://marmalade-repo.org/packages)
 
 ## Usage
 
-Run `zeal-at-point` to search the word at point (or string in region), then Zeal is launched and search the word.
+Use Emac's Meta key sequence to run the command `zeal-at-point` to search the word-at-point (or string in region). Once zeal-at-point is launched, search for whatever documentation it is you want to read.
 Use prefix argument `C-u` to edit the search string first.
 
 There is no default keymap defined, but you could setup your own binding like this:
@@ -33,7 +33,7 @@ Additionally, the buffer-local variable `zeal-at-point-docset` can be set in a s
    (lambda () (setq zeal-at-point-docset "rails")))
 ```
 
-You are also possible to set docset for current buffer with `zeal-at-point-set-docset`
+You are also able to set the docset for the current buffer using `zeal-at-point-set-docset`
 
 ## Thanks
 
